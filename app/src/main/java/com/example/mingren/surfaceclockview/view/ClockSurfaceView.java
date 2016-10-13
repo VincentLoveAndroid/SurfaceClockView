@@ -26,7 +26,7 @@ public class ClockSurfaceView extends SurfaceView implements SurfaceHolder.Callb
     private boolean mIsDrawing;
     private Paint mPaint;
     private int mRadius;
-    private int currentPosition = 0;//记录目前所画第几个刻度点，从3点开始逆时针
+    private int currentPosition = 0;//记录目前所画第几个刻度点，从12开始顺时针画
     private int mCenterX;
     private int mCenterY;
     private int hourHandLength;
